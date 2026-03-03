@@ -69,18 +69,17 @@ class ATM {
             int choice = sc.nextInt();
 
             switch (choice) {
-                case 1:
-                    System.out.println("Your balance: ₹" + account.getBalance());
-                    break;
+                case 1-> System.out.println("Your balance: ₹" + account.getBalance());
+                    
 
-                case 2:
+                case 2->
                     System.out.print("Enter deposit amount: ");
                     double depAmt = sc.nextDouble();
                     account.deposit(depAmt);
                     System.out.println("Amount deposited successfully.");
-                    break;
+                    
 
-                case 3:
+                case 3->
                     System.out.print("Enter withdrawal amount: ");
                     double wAmt = sc.nextDouble();
 
@@ -89,16 +88,14 @@ class ATM {
                     } else {
                         System.out.println("Insufficient balance.");
                     }
-                    break;
+                    
 
-                case 4:
+                case 4->
                     System.out.println("Exiting session...");
                     sessionActive = false;
-                    break;
 
-                default:
+                default->
                     System.out.println("Invalid choice.");
-                    break;
             }
         }
     }
