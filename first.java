@@ -12,6 +12,7 @@ class child extends Parent {
 
 public class first {
     public static void main(String args[]) {
+        @SuppressWarnings("unused")
         child c=new child();
     }
 }

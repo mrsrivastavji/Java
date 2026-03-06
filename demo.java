@@ -16,5 +16,6 @@ class demo {
         catch (ArithmeticException e) {
             System.out.println(e);
         }
+        sc.close();
     }
 }

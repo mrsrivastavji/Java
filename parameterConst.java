@@ -19,7 +19,9 @@ class child extends Parent {
 
 public class parameterConst {
     public static void main(String args[]) {
+        @SuppressWarnings("unused")
         child c1=new child();
+        @SuppressWarnings("unused")
         child c2=new child(5,10);
     }
 }

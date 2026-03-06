@@ -27,6 +27,7 @@ class Customer implements Member {
             this.name=name;
     }
 
+    @Override
     public void callback() {
         System.out.println("OK I will visit "+ this.name);
     }
