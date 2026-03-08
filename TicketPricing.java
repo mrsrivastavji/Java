@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class TicketPricing {
     public static void main(String[] args) {
         int age;
         int time;
