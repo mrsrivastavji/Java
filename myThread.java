@@ -1,4 +1,5 @@
 class myThrea extends Thread {
+    @Override
     public void run() {
         int i=1;
         while(true) {
@@ -9,6 +10,7 @@ class myThrea extends Thread {
     }
 }
 
+@SuppressWarnings("unused")
 class myThread {
     public static void main() {
         myThrea t=new myThrea();

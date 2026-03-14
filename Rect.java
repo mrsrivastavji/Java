@@ -14,7 +14,7 @@ class Rectrangle {
     
 }
 
-public class YO {
+public class Rect {
     public static void main(String[] args) {
         Rectrangle r=new Rectrangle(3,4);
         r.display();

@@ -1,4 +1,5 @@
 class testThread extends Thread {
+    @Override
     public void run() {
         int i=1;
         while(true) {
