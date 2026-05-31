@@ -1,9 +1,9 @@
-class StackArray {
-    private int maxSize;
-    private int[] stackArray;
+class stackArray {
+    private final int maxSize;
+    private final int[] stackArray;
     private int top;
 
-    public StackArray(int size) {
+    public stackArray(int size) {
         this.maxSize = size;
         this.stackArray = new int[size];
         this.top = -1;
@@ -53,7 +53,7 @@ class StackArray {
         }
     }   
     public static void main(String[] args) {
-        StackArray stack = new StackArray(5);
+        stackArray stack = new stackArray(5);
         stack.push(10);
         stack.push(20);
         stack.push(30);
